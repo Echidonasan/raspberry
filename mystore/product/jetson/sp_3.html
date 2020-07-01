@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../../style.css">
+	<link rel="stylesheet" type="text/css" href="../../../bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+<!-- menu -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+	  <a class="navbar-brand" href="#">Navbar</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="../../../index.html">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="../../../demo.html">Contact</a>
+	      </li>
+	      <li class="nav-item">
+    	       <a class="nav-link" href="../../../new.html">Tin tức</a>
+    	   </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link" href="#" id="navbarDropdown" >
+	          Dropdown
+	        </a>
+	        <div class="dropdown-content">
+	          <a class="dropdown-item" href="#">Raspberry pi</a>
+	          <a class="dropdown-item" href="../../../jetson.html">Jetson</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="/cart/cart_detail/"> <img src="../../../main_image/card.png" width="32"/></a>
+		  </li>
+		  <li class="cart">
+				
+					<font color="black">Giỏ hàng đang trống</font>
+		</li>>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div>
+  </div>
+</nav>
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Jumbotron Header -->
+      <header class="jumbotron my-4">
+        <h1 class="display-3">ABC </h1>
+        <p class="lead">All things you need are here! </p>
+        <a href="/../../contact.html" class="btn btn-primary btn-lg">Contact!</a>
+      </header
+<!-- end menu -->
+<!-- Page Features -->
+<div class="row text-center">
+    <div class="container">
+      <div class="card" align="center">
+        <img class="img-responsive" src="../../../image/robot_jetson.png" alt="JetRacer" width="350" height="350"/>
+        <div class="card-body">
+          <h4 class="card-title">Asanzo 50 inch</h4>
+          <p class="card-text">JetRacer is an autonomous AI racecar using NVIDIA Jetson Nano. With JetRacer you will</p>
+          <ur>
+              <li>Go fast - Optimize for high framerates to move at high speeds             </li>
+              <li>Have fun - Follow examples and program interactively from your web browser</li>
+              
+          </ur>
+          <br/>9,000,000 vnđ</p>
+        </div>
+          <div>
+              <form action="/cart/cart_add/2/" method="post">
+                  <tr><th><label for="id_quantity">Số lượng:</label></th><td><select name="quantity" id="id_quantity">
+<option value="1">1</option>
+
+<option value="2">2</option>
+
+<option value="3">3</option>
+
+<option value="4">4</option>
+
+<option value="5">5</option>
+
+<option value="6">6</option>
+
+<option value="7">7</option>
+
+<option value="8">8</option>
+
+<option value="9">9</option>
+
+</select><input type="hidden" name="update" id="id_update" /></td></tr>
+                  <input type='hidden' name='csrfmiddlewaretoken' value='ZOTv4CFAq3QH4hD4rnTMLm6heZsAOjE5bKOh3dfAGOPtT3svGTDIhGBHDsHy0aC3' />
+                   <div class="card-footer" >
+                   <input type="submit" value = "Thêm vào giỏ hàng" class="btn btn-primary">
+                </div>
+              </form>
+          </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+
+</div>
+<!-- Footer -->
+ <footer class="py-5 bg-dark">
+	<div class="container">
+	  <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+	</div>
+	<!-- /.container -->
+  </footer>
+<!-- end list product -->
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="../../../jquery.min.js"></script>
+<script src="../../../popper.min.js"></script>
+<script src="../../../js/bootstrap.min.js"></script>
+</body>
+
+</html>

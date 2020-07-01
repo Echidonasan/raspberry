@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+<!-- menu -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+    	  <a class="navbar-brand" href="#">Navbar</a>
+    	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	    <span class="navbar-toggler-icon"></span>
+    	  </button>
+    
+    	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    	    <ul class="navbar-nav mr-auto">
+    	      <li class="nav-item active">
+    	        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+    	      </li>
+    	      <li class="nav-item">
+    	        <a class="nav-link" href="contact.html">Contact</a>
+    		  </li>
+    		  <li class="nav-item">
+    	        <a class="nav-link" href="new.html">Tin tức</a>
+    	      </li>
+    	      <li class="nav-item dropdown">
+    	        <a class="nav-link" href="#" id="navbarDropdown" >
+    	          Shop
+    	        </a>
+    	        <div class="dropdown-content">
+    	          <a class="dropdown-item" href="raspbery.html">raspbery pi</a>
+    	          <a class="dropdown-item" href="jetson.html">Jetson</a>
+    	          <div class="dropdown-divider"></div>
+    	          <a class="dropdown-item" href="http://0.0.0.0:8080">Demo Object Detection</a>
+    	        </div>
+    		  </li>
+    		  <li class="nav-item">
+    			<a class="nav-link" href="paid.html"> <img src="main_image/card.png" width="32"/></a>
+    		  </li>
+    		  <li class="cart">
+    				
+    					<font color="black">Giỏ hàng đang trống</font>
+    		</li>
+    	    </ul>
+    	    <form class="form-inline my-2 my-lg-0">
+    	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    	    </form>
+    	  </div>
+      </div>
+    </nav>
+</header>
+<!-- end menu -->
+<!-- slide -->
+<div id="carouselExampleIndicators" class="carousel slide mt-1" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+		<div class="slice">
+			<img src="main_image/pi-4.png" width = "580" height = "600" alt="" class ="pi">
+			
+            <div class="left">
+                <h2><i>Phiên bản mới 8g</i></h2>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+
+        </div>
+	</div>
+	<div class="carousel-item">
+		
+		<div class="slice">
+			<img class="d-block w-100" src="main_image/NVIDIA_Jetson.png" width="1920" height="600" alt="Third slide">
+			
+            <div class="left">
+                <a href="sp_jetson.html" class="btn btn-primary">Buy</a>
+            </div>
+
+        </div>
+            
+	</div>
+    
+    <div class="carousel-item">
+      
+      <div class="slice">
+			<img class="d-block w-100" src="image/robot_jetson.png" width="1920" height="600" alt="Third slide">
+			
+            <div class="left">
+                <a href="sp_jetson.html" class="btn btn-primary">Buy</a>
+            </div>
+
+        </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- end slide -->
+<!-- list product -->
+<div class="container">
+	<div class="row mt-5">
+		<h2 class="list-product-title">New product</h2>
+		<div class="list-product-subtitle">
+			<p>List product description</p>
+		</div>
+		<div class="product-group">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-12">
+					<div class="card card-product mb-3">
+					  <img class="card-img-top" src="new_image/banner_1.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title"><strong>Raspbery 4b</strong></h5>
+					    <p class="card-text">Your tiny, dual-display, desktop computer…and robot brains, smart home hub,edia centre, networked AI core</p>
+					    <ul class="list-group list-group-flush">
+                            <li class="list-group-item">4GB LPDDR4 SDRAM</li>
+                            <li class="list-group-item">4 USB ports</li>
+                            <li class="list-group-item">OpenGL ES 3.0 graphics</li>
+                       </ul>
+						<a href="mystore/product/raspberry/sp_1.html" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-12">
+					<div class="card card-product mb-3">
+					  <img class="card-img-top" src="new_image/banner_2.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title"><strong>Raspbery 3b</strong></h5>
+					    <p class="card-text">Your tiny, dual-display, desktop computer…and robot brains, smart home hub,edia centre, networked AI core.</p>
+					    <ul class="list-group list-group-flush">
+                            <li class="list-group-item">4GB LPDDR4 SDRAM</li>
+                            <li class="list-group-item">4 USB ports</li>
+                            <li class="list-group-item">OpenGL ES 3.0 graphics</li>
+                       </ul>
+					    <a href="mystore/product/raspberry/sp_2.html" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-12">
+					<div class="card card-product mb-3">
+					  <img class="card-img-top" src="new_image/banner_3.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Product</h5>
+					    <p class="card-text">The Raspberry Pi 2 Model B is the second-generation Raspberry Pi.</p>
+					    <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1GB LPDDR2 SDRAM</li>
+                            <li class="list-group-item">4 USB ports</li>
+                            <li class="list-group-item">Combined 3.5mm audio jack and composite video</li>
+                       </ul>
+					    <a href="mystore/product/raspberry/sp_3.html" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-12">
+					<div class="card card-product mb-3">
+					  <img class="card-img-top" src="image/mh.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Product</h5>
+					    <p class="card-text">Raspberry Pi Camera Module V2 có một cảm biến 8-megapixel của Sony IMX219 .</p>
+				   	   <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Ống kính tiêu cự cố định</li>
+                            <li class="list-group-item">Cảm biến độ phân giải 8 megapixel cho khả năng chụp ảnh kích thước 3280 x 2464</li>
+                        
+                       </ul>
+					    <a href="#" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+</div>
+ <!-- Footer -->
+ <footer class="py-5 bg-dark">
+	<div class="container">
+	  <p class="m-1 text-center text-white">Copyright &copy; Your Website 2019 </p>
+	</div>
+	<!-- /.container -->
+  </footer>
+<!-- end list product -->
+
+<!-- Load jquery trước khi load bootstrap js -->
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="main.js"></script> 
+</body>
+
+</html>

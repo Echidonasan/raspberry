@@ -1,0 +1,40 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+    <style>
+        #canvas {
+            border: solid 1px blue;
+        }
+
+        .two-buttons {
+            margin-top: 20;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+          </div>
+          <div class="col-sm">
+            <h1>Hello ProtonX</h1>
+
+            <canvas id="canvas" width="280" height="280"></canvas>
+            <div class="two-buttons">
+                <button id="erase-button" class="btn btn-primary">Erase</button>
+                <button id="save-button" class="btn btn-warning">Save</button>
+            </div>
+
+            <img id="canvas-img" width="280" height="280" />
+
+          </div>
+          <div class="col-sm">
+          </div>
+        </div>
+      </div>
+
+      <script src="data.js" type="module"></script>
+      <script src="script.js" type="module"></script>
+</body>
